@@ -1,0 +1,17 @@
+{
+	"entity-name" : "TestEntity",
+	"attributes" :[
+		{
+			"attribute-name" : "testAttribute1"
+		},
+		{
+			"attribute-name" : "testAttribute2"
+		},
+		{
+			"attribute-name" : "testAttribute3"
+		},
+		{
+			"attribute-name" : "testAttribute4"
+		}
+	]
+}

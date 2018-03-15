@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 
 public class JsonParser
 {
-    private static JsonParser mParser;be picked from properties which needs to defined as in/out directories.
+    private static JsonParser mParser;
     private Gson mGson = new Gson();
 
     private JsonParser()

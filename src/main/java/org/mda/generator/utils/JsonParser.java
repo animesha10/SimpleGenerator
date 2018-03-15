@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 
 public class JsonParser
 {
-    private static JsonParser mParser;
+    private static JsonParser mParser;be picked from properties which needs to defined as in/out directories.
     private Gson mGson = new Gson();
 
     private JsonParser()
@@ -35,6 +35,7 @@ public class JsonParser
 
     public static void main( String[] args ) throws IOException
     {
+        // Write test cases for the below. 
         EntityMetafacade lEntityMetadata = getInstance().getEntityMetafacade( "E:\\Mine\\SimpleGenerator\\src\\main\\resources\\source\\Test.json" );
         TemplateEngine lEngine = new TemplateEngine();
         lEngine.generateFile( lEntityMetadata, "template/entity.vsl", "E:\\Mine\\SimpleGenerator\\src\\main\\java\\generated\\" );
